@@ -11,7 +11,7 @@ from flask import Flask, render_template, request, url_for
 app = Flask(__name__, template_folder='templates')
 
 # load dataset
-df = pd.read_excel('clean_dataset_quran_stem.xlsx')
+df = pd.read_excel('dataset/clean_dataset_quran_stem.xlsx')
 dataset_feature = df['ProcessedText'].astype(str)
 
 # load model tf-idf
