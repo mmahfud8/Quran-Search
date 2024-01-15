@@ -89,4 +89,4 @@ def index():
 
 # jalankan app
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False)
+    app.run(host='localhost', port=80, debug=True, use_reloader=False)
