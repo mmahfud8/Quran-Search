@@ -45,7 +45,7 @@ def stem_text(text):
   return stemmed_text
 
 # fungsi untuk menampilkan hasil terbaik
-def show_best_results(dataset, scores_array, top_n=20):
+def show_best_results(dataset, scores_array, top_n=50):
     sorted_indices = scores_array.argsort()[::-1]
     results = []
     for position, idx in enumerate(sorted_indices[:top_n]):
