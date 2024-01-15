@@ -23,6 +23,6 @@ Pengujian dilakukan dengan memasukan input term sebagai kata kunci dan mencocoka
 
 ## Proses Deployment
 Deployment aplikasi mengunakan Flask dan saya hostingkan  di www.pythonanywhere.com .
-Cara pengunaan aplikasi web ini yaitu dengan memasukkan kata atau kalimat kunci pada kolom input dan submit maka akan muncul 50 hasil pencarian.
+Cara pengunaan aplikasi web ini yaitu dengan memasukkan kata atau kalimat kunci pada kolom input lalu klik submit maka akan muncul 50  hasil pencarian ayat Al-Quran yang mengandung kata atau kalimat yang dicari.
 
 URL Deployment : https://bit.ly/4aKPfu4 
